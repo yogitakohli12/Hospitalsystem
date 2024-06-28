@@ -1,0 +1,984 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  /* background-color:beige; */
+  /* background: linear-gradient(red, orange, yellow, green, white, blue, indigo, violet, silver, gold); */
+}
+
+/* ///////////////////////////////penal start/////////////////////////////////////////// */
+#penal {
+
+
+  /* background: url("https://t3.ftcdn.net/jpg/02/16/47/22/360_F_216472247_cT66WDoS0fp1s3wC7eaykMJNDGVbOBPq.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+  width: 100%;
+  height: 100%;
+}
+
+#penal nav {
+  position: fixed;
+  background-color: pink;
+  width: 98%;
+  display: flex;
+  gap: 40%;
+  padding: 10px;
+  align-items: center;
+  justify-content: end;
+
+}
+
+#penal nav button {
+  width: 100px;
+  height: 50px;
+  padding: 2px;
+  margin-left: 5px;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+#penal button:hover {
+  border: none;
+  cursor: pointer;
+
+}
+#penal #content , #about{
+  margin-top: 5%;
+}
+#penal #content #row1,
+#row2 {
+  display: flex;
+  padding: 6%;
+  gap: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#penal #content #row3 h1,
+#card {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+#penal #content #row3 #card #item {
+  border: 2px red solid;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  align-items: center;
+  border-radius: 50%;
+}
+
+
+#penal #content #row1 p {
+  width: 40%;
+
+  /* margin-left: 8%; */
+}
+
+#penal #content #row1 img {
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  width: 40%;
+  height: 100%;
+  /* margin-left: 4%; */
+
+}
+
+#penal footer {
+  background-color: darkgray;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#penal footer #links {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#penal footer #daystime,
+#contact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#penal footer #contact #img{
+  width: 20px;
+}
+#penal footer #contact #img ,#detail{
+  display: flex;
+  flex-direction: column;
+ 
+  gap: 5px;
+}
+
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  gap: 5%;
+  color: darkblue;
+}
+
+
+
+
+
+
+/* ///////////////////////////////////////penal ends ////////////////////////////////////////////////////////// */
+
+
+
+/*/////////////////////////////////// signup page start////////////////////////////////////////////////////// */
+#signup {
+  background: url("./images/recepton.png");
+  padding-top: 3.5%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* scale: 100%; */
+  padding-bottom: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* width: 200vh; */
+  /* width: auto; */
+  height: 100%;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#signup div {
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  margin-left: 60%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 70%;
+  height: 100vh;
+  /* border: black 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 103, 164);
+  /* background-image: linear-gradient(white, transparent, transparent, white); */
+}
+
+#signup h2 {
+  color: rgb(19, 8, 8);
+  display: flex;
+  justify-content: center;
+}
+
+#signup button {
+  width: 60px;
+  height: 30px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  border: blue 2px solid;
+  background-color: transparent;
+  color: blue;
+
+}
+
+#signup button:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+#signup input {
+  width: 100%;
+  height: 26px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+#signup input:active {
+  border: 2px black;
+}
+
+/* //////////////////////////////////signup page ends///////////////////////////////////////////////////// */
+
+
+
+/* ///////////////////////////////#login page start/////////////////////////////////////////////////////// */
+#login {
+  background-color: #989b65;
+  color: rgb(17, 18, 19);
+  width: 307vh;
+  height: 100vh;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginpage {
+  display: flex;
+  width: 32%;
+  border-top-right-radius: 15%;
+  border-bottom-left-radius: 15%;
+  height: 80%;
+  background-image: radial-gradient(transparent, pink);
+}
+
+
+#loginpage p {
+  margin: 0%;
+
+}
+
+#loginpage #link {
+  position: absolute;
+}
+
+#loginpage #logininfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#loginpage #logininfo h2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+#login #if {
+  color: rgb(212, 207, 244);
+}
+
+#login button {
+  width: 150%;
+  height: 30px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  border: green 2px solid;
+  background-color: rgb(33, 21, 255);
+  color: white;
+
+}
+
+#login button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#loginpage #logininfo input {
+  width: 150%;
+  height: 26px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+#login input:active {
+  border: 2px black;
+}
+
+/* ///////////////////////////////////////////#login up page ends////////////////////////////////////////////// */
+
+
+
+/* common admin block start*/
+#dashcontain {
+  background-color: aliceblue;
+  width: 82.5%;
+}
+
+
+#head {
+  margin-left: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+#head button {
+  border: 4px solid aquamarine;
+  font-size: large;
+  height: 40px;
+  width: 100px;
+
+}
+
+#head button:nth-child(1) {
+  border: 4px solid aquamarine;
+  font-size: medium;
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+#head button:hover {
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: aquamarine;
+
+}
+
+
+
+/* common admin block ends */
+
+
+
+/* ///////////////////////////////////////Main start //////////////////////////////////////////////*/
+#appoin {
+  border: black;
+  height: 35%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  width: 100%;
+}
+
+#appoin h2 {
+  margin-top: 20px;
+}
+
+#appoin1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: black;
+  background-color: rgb(198, 179, 216);
+}
+
+#appoin2 {
+  text-align: center;
+  border: black;
+  background-color: rgb(16, 245, 50);
+}
+
+
+#appoin3 {
+  text-align: center;
+  border: rgb(254, 248, 248);
+  background-color: rgb(205, 192, 215);
+}
+
+
+#mainheading {
+  display: grid;
+  margin-left: 30px;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+.main {
+  padding: 7px;
+  color: rgb(29, 29, 87);
+  display: grid;
+  margin-left: 30px;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+
+/* ///////////////////////////////////////main ends//////////////////////////////////////////////// */
+
+
+
+/* ////////////////////////////////////////dashboard's button start////////////////////////////////////////// */
+#dashitem {
+  background-color: rgb(128, 116, 116);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+  width: 214px;
+  align-items: center;
+  background-image: linear-gradient(transparent, pink, transparent, green);
+}
+
+#dashitem button {
+  width: 170px;
+  height: 40px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-weight: lighter;
+
+}
+
+#dashitem button:active {
+  background-color: grey;
+  color: azure;
+  box-shadow: 2px 2px 5px #fc894d;
+  opacity: 2;
+
+}
+
+#dashitem button:hover {
+  background-color: grey;
+  color: azure;
+}
+
+#dashitem img {
+  width: 50px;
+  height: 50px;
+  border-radius: 90%;
+  padding: 10px;
+}
+
+#id {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2px;
+  margin-right: 10px;
+  color: rgb(36, 65, 55);
+}
+
+/* ///////////////////////////////////dashboard's button ends///////////////////////////////////// */
+
+
+#department {
+  display: flex;
+  gap: 10px;
+}
+
+
+#department input {
+  width: 40px;
+  height: 30px;
+}
+
+#department #secdep {
+  width: 35%;
+  height: 30px;
+}
+
+#department button {
+  width: 50px;
+  height: 30px;
+
+}
+
+
+/* /////////////////////////////////patients start//////////////////////////////////////////////// */
+
+.Patient {
+  color: rgb(29, 29, 87);
+  display: grid;
+  padding: 7px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 0.6fr 2.5fr 0.9fr 1.5fr 2fr 1fr 1.8fr 0.8fr 1.5fr 0.3fr 0.3fr;
+}
+
+#patientheading {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(55, 63, 125);
+  font-size: large;
+  font-weight: bold;
+  padding: 7px;
+  display: grid;
+  grid-template-columns: 0.6fr 2.5fr 0.9fr 1.5fr 2fr 1fr 1.8fr 0.8fr 1.5fr 0.3fr;
+}
+
+#patientpanel-headin {
+  display: grid;
+  grid-template-columns: 2fr 2fr 4fr 2fr 3fr 4fr 2fr 2fr 2fr;
+}
+
+.Patientpanel-doctor {
+  display: grid;
+  grid-template-columns: 2fr 2fr 4fr 2fr 3fr 4fr 2fr 2fr 2fr;
+}
+
+
+
+
+/*/////////////////////// patients ends//////////////////////////////////////////////////// */
+
+
+
+/* ///////////////////////////////////////////profile start//////////////////////////////////////////// */
+
+#data {
+  height: 10%;
+  width: 70%;
+  background-color: rgb(171, 112, 35);
+  padding: 1%;
+  border: #26343f solid 2px;
+  display: flex;
+  justify-content: center;
+
+  margin-left: 12%;
+}
+
+
+#information img {
+  background-color: bisque;
+  border-radius: 50%;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 3% 39% 1%;
+}
+
+#information button {
+  background-color: blueviolet;
+  color: white;
+  height: 10%;
+  width: 100%;
+  border-radius: 10%;
+}
+
+#admin {
+  display: flex;
+  padding: 10px;
+  background-color: cyan;
+}
+
+
+#logoutt {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  height: 10px;
+  border-radius: 10%;
+  width: 10%;
+
+}
+
+/* //////////////////////////////profile ends///////////////////////////////////////////////////////////// */
+
+/*//////////////////////////////////////////// add common form start////////////////////// */
+#doctor {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  gap: 2px;
+  text-align: center;
+}
+
+
+#photoimage {
+  margin-left: 6%;
+  margin-top: 4%;
+}
+
+#addform {
+
+
+  margin: 1%;
+  padding: 3%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+}
+
+#col1,
+#col3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#col2 input,
+#col4 input {
+  display: grid;
+  height: 30px;
+  width: 100%;
+  margin-top: 2%;
+
+}
+
+#col5 {
+  display: flex;
+  margin-left: 6%;
+}
+
+#col5 input {
+  margin-left: 45px;
+  width: 33%;
+  height: 30px;
+}
+
+#formsubmit {
+  padding: 1.5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 6%;
+  margin-top: 25%;
+  margin-left: 25%;
+  background-color: rgb(205, 205, 188);
+  color: rgb(13, 16, 16);
+  border: none;
+
+}
+
+#formsubmit:active {
+  background-color: #141515;
+  color: aliceblue;
+}
+
+
+#patienthome {
+  background-color: white;
+  width: 100%;
+
+}
+
+
+
+#dashpatient {
+
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  width: 100%;
+  color: aquamarine;
+  height: 60px;
+  align-items: center;
+  position: fixed;
+}
+
+#dashpatient #buttons {
+  display: flex;
+  gap: 30px;
+  color: #fc894d;
+
+}
+
+#buttons {
+  color: #d11e1e;
+}
+
+
+#dashpatient #buttons .but1-arrow {
+  background-color: white;
+  color: pink;
+}
+
+
+
+#dashpatient #buttons button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  align-items: center;
+  padding: 7px;
+}
+
+
+#patienthome .patientss {
+  background-color: rgb(244, 196, 137);
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+
+}
+
+.patientss h1 {
+  color: red;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/* ///////////////////////////////add common block ends////////////////////////////////// */
+
+
+/* /////////////////////////////////////////calender start////////////////////////////////////////////// */
+
+.calenderhead {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  display: flex;
+  gap: 20%;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.weeks {
+  font-weight: bold;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+
+}
+
+.dates {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+}
+
+#dates {
+  text-align: center;
+  padding: 10px;
+}
+
+#dates:hover {
+  background-color: gainsboro;
+}
+
+/* /////////////////////////////////////////calender ends///////////////////////////////////////////// */
+
+
+/* /////////////////////////////////blood section start///////////////////////////////////////////// */
+
+#blood {
+  padding: 6%;
+}
+
+#dep {
+  padding-left: 6%;
+}
+
+#table {
+  border: rgb(30, 0, 255) 2px solid;
+  width: 100%;
+}
+
+#table th {
+  background-color: blueviolet;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#table tr {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* ////////////////////blood penal ends //////////////////////////////////////////////////////////////// */
+
+
+/* /////////////////////////////////carousal  start //////////////////////////////////////////////////// */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  margin: 0%;
+  font-family: "Roboto";
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin-top: 5%;
+  background-color: transparent;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+
+.carousel-buttons {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.indicators {
+  display: flex;
+  gap: 15px;
+
+
+}
+
+.indicator-buttons {
+  border: none;
+  position: relative;
+  cursor: pointer;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.indicators>button {
+
+  position: relative;
+  background: none;
+}
+
+.indicator-symbol {
+
+  color: #141515;
+}
+
+.indicator-symbol-active {
+  color: #d11e1e;
+}
+
+
+/* //////////////////////////// Carousal ends ////////////////////////////////////////////////// */
+
+
+
+
+/* /////////////  receptionist panel start   //////////////////// */
+#doctorpanel {
+  width: 100%;
+}
+
+
+#dashdoctor {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 20%;
+  color: aquamarine;
+  height: 100%;
+  margin-left: 80%;
+  position: fixed;
+  align-items: center;
+  gap: 50px;
+  padding-top: 40px;
+
+}
+
+#dashdoctor h2 {
+  padding-left: 10px;
+}
+
+
+#dashdoctor #buttons {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+#dashdoctor #buttons button {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 30vh;
+  text-decoration: none;
+}
+
+#datadoctor {
+  width: 80%;
+}
+
+
+
+/* ////////////////////update css start////////////////////////// */
+
+#updateform {
+  color: snow;
+  background-image: url("./images/editdoctor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center;  */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+}
+
+
+#updateform #col1 {
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: -10%;
+}
+
+#updateform #col2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 70%;
+  margin-top: 5%;
+
+}
+
+
+#updateform button {
+  position: absolute;
+  width: 50%;
+  height: 7%;
+  margin-top: 40%;
+  margin-left: 7%;
+  background-color: cadetblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
